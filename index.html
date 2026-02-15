@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Anas Khan</title>
+    <meta name="description" content="Software Engineering Student at COMSATS | Web Developer & AI Enthusiast">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <!-- for icon  -->
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Arial";
+        src: url("fonts/Arial.ttf") format("truetype");
+      }
+    </style>
+</head>
+<body class="light-mode">
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">Muhammad Anas Khan</div>
+            <div class="nav-content">
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="sun-icon"><i class="fas fa-sun"></i></span>
+                    <span class="moon-icon"><i class="fas fa-moon"></i></span>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                    <span class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </header>
+
+    <!-- Background Elements -->
+    <div class="bg-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="welcome-badge">
+                        <span class="sparkle"><i class="fas fa-star"></i></span>
+                        <span class="badge-text">Welcome to my portfolio</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text-1">Muhammad</span>
+                        <br>
+                        <span class="gradient-text-2">Anas Khan</span>
+                    </h1>
+
+                    <div class="hero-subtitle">
+                        <p class="role-title">
+                            <span>Software Engineering Student at</span>
+                            <span class="comsats-text">COMSATS University Islamabad </span>
+                        </p>
+                        <div class="role-badges">
+                            <div class="badge badge-blue">
+                                <span><i class="fas fa-laptop-code"></i></span>
+                                Full-Stack Developer
+                            </div>
+                            <div class="badge badge-purple">
+                                <span><i class="fas fa-brain"></i></span>
+                                AI Enthusiast
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="hero-description">
+                        I'm a <strong>Software Engineering student at COMSATS University Islamabad </strong> exploring Python, Java, and AI/ Data Science through
+                        projects that solve real-world problems. My approach is practical:
+                        <span class="highlight">learn deeply, build thoughtfully, and grow continuously.</span>
+                    </p>
+
+                    <div class="interests-section">
+                        <h3 class="interests-title">
+                            <span><i class="fas fa-heart"></i></span>
+                            Core Interests:
+                        </h3>
+                        <div class="interests-grid">
+                            <span class="interest-tag">Software Development</span>
+                            <span class="interest-tag">AI & Machine Learning</span>
+                            <span class="interest-tag">Web Development</span>
+                            <span class="interest-tag">Automation & Chatbots</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span><i class="fas fa-folder-open"></i></span>
+                            View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Get in Touch
+                            <span><i class="fas fa-envelope"></i></span>
+                        </a>
+                    </div>
+                </div>
+                
+
+                <div class="hero-card">
+    <div class="card-bg"></div>
+    <div class="floating-orb orb-blue"></div>
+    <div class="floating-orb orb-purple"></div>
+
+    <div class="card-content">
+
+        <!-- Replace avatar text with image -->
+        <div class="avatar-image">
+            <img src="anas_pic.JPG" alt="Profile Photo">
+        </div>
+
+        <div class="card-info">
+            <p class="card-title">Software Engineer</p>
+            <div class="card-location">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                    COMSATS University Islamabad
+            </div>
+        </div>
+
+    </div>
+</div>
+
+            </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <span><i class="fas fa-tools"></i></span>
+                    <span>What I Know</span>
+                </div>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-description">Continuously learning and building with modern technologies</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-card" data-color="blue">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-blue"><i class="fas fa-code"></i></div>
+                        <h3 class="skill-title">Programming Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">HTML, CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+
+
+
+                <!-- AI & CS Concepts -->
+                <div class="skill-card" data-color="pink">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-pink"><i class="fas fa-brain"></i></div>
+                        <h3 class="skill-title">AI & CS Concepts</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Search Algorithms</span>
+                        <span class="skill-tag">Graph Search</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">AI Chatbots</span>
+                        <span class="skill-tag">Basic Automation</span>
+                        <span class="skill-tag">AI Tools</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Frameworks -->
+                <div class="skill-card" data-color="amber">
+                    <div class="skill-header">
+                        <div class="skill-icon icon-amber"><i class="fas fa-tools"></i></div>
+                        <h3 class="skill-title">Tools & Frameworks</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">IntelliJ IDEA</span>
+                        <span class="skill-tag">Canva / Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge badge-pink">
+                    <span><i class="fas fa-rocket"></i></span>
+                    <span>My Work</span>
+                </div>
+                <h2 class="section-title gradient-pink">Featured Projects</h2>
+                <p class="section-description">Building real-world solutions with modern technologies</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header header-blue"></div>
+                    <div class="project-content">
+                        <div class="project-title-row">
+                            <h3 class="project-title">Hotel Management System</h3>
+                            <span class="project-year year-blue">2025</span>
+                        </div>
+                        <p class="project-description">
+                            A Java console-based Hotel Management System enabling admins and customers to manage 
+                            room bookings, food orders, billing, and records, with data stored in CSV files.
+                        </p>
+                        <div class="project-features">
+                            <h4 class="features-title"><span><i class="fas fa-star"></i></span> Key Features:</h4>
+                            <ul class="features-list">
+                                <li>Admin Module</li>
+                                <li>Customer Module</li>
+                                <li>Billing System</li>
+                                <li>Data Persistence</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span><i class="fas fa-laptop-code"></i></span>
+                            <span class="tech-text">Java</span>
+                        </div>
+                    </div>
+                </div>
+               
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header header-orange"></div>
+                    <div class="project-content">
+                        <div class="project-title-row">
+                            <h3 class="project-title">SmartFlight Route Optimizer</h3>
+                            <span class="project-year year-orange">2025</span>
+                        </div>
+                        <p class="project-description">
+                            A search-based <b> group </b>project built using the A* algorithm to find the fastest route between airports.
+                        </p>
+                        <div class="project-features">
+                            <h4 class="features-title"><span><i class="fas fa-star"></i></span> Key Features:</h4>
+                            <ul class="features-list">
+                                <li>Optimal path discovery</li>
+                                <li>Heuristic-based cost calculation</li>
+                                <li>Graph-based search</li>
+                                <li>Real-world simulation</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span><i class="fas fa-laptop-code"></i></span>
+                            <span class="tech-text">AI & Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header header-purple"></div>
+                    <div class="project-content">
+                        <div class="project-title-row">
+                            <h3 class="project-title">SentinelX</h3>
+                            <span class="project-year year-purple">2026</span>
+                        </div>
+                        <p class="project-description">
+                            A Real-Time 3D Air Defense Simulator, and fully interactive Python <b> group </b>
+                         project that detects, prioritizes, and intercepts aerial threats using AI.
+                        </p>
+                        <div class="project-features">
+                            <h4 class="features-title"><span><i class="fas fa-star"></i></span> Key Features:</h4>
+                            <ul class="features-list">
+                                <li>AI-Based Threat Detection & Target Allocation</li>
+                                <li>Physics-Based Interception Engine</li>
+                                <li>Real-Time 3D Defense Simulation</li>
+                                <li>Interactive Defense Control System</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span><i class="fas fa-laptop-code"></i></span>
+                            <span class="tech-text">AI & Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header header-green"></div>
+                    <div class="project-content">
+                        <div class="project-title-row">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <span class="project-year year-green">2026</span>
+                        </div>
+                        <p class="project-description">
+                            A modern, animated, and professional personal website with dark and light mode.
+                        </p>
+                        <div class="project-features">
+                            <h4 class="features-title"><span><i class="fas fa-star"></i></span> Key Features:</h4>
+                            <ul class="features-list">
+                                <li>Animation effects</li>
+                                <li>Modern cards</li>
+                                <li>Responsive design</li>
+                                <li>Theme toggle</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span><i class="fas fa-laptop-code"></i></span>
+                            <span class="tech-text">HTML, CSS, JS, AI Tools</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container-small">
+            <div class="section-header">
+                <div class="section-badge badge-blue">
+                    <span><i class="fas fa-envelope"></i></span>
+                    <span>Get in Touch</span>
+                </div>
+                <h2 class="section-title gradient-blue">Let's Connect</h2>
+                <p class="section-description">Have a project in mind? Let's build something amazing together</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3 class="info-title">Contact Information</h3>
+                        <p class="info-description">Feel free to reach out through any channel</p>
+
+                        <a href="mailto:anas.codelab@gmail.com" class="contact-item">
+                            <div class="contact-icon icon-blue-grad"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <p class="contact-label">Email</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/anaskhan-codelab" class="contact-item">
+                            <div class="contact-icon icon-purple-grad"><i class="fab fa-github"></i></div>
+                            <div>
+                                <p class="contact-label">GitHub</p>
+                                
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/muhammad-anas-khan-mak9/" class="contact-item">
+                            <div class="contact-icon icon-blue-grad"><i class="fab fa-linkedin"></i></div>
+                            <div>
+                                <p class="contact-label">LinkedIn</p>
+                            </div>
+                        </a>
+
+                        <div class="contact-item-static">
+                            <div class="contact-icon icon-green-grad"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <p class="contact-label">Location</p>
+                                <p class="contact-value">Pakistan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-title">Muhammad Anas Khan</p>
+            <p class="footer-copyright">© 2026 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
